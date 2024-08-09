@@ -58,7 +58,7 @@
     margin: auto;
     color: white;
     position: relative;
-    animation: content 2s infinite 1s;
+    animation: content 2s none 1s;
 }
 /* animation for container */
 @keyframes content
@@ -135,3 +135,400 @@
     background-color: orange;
     transform: scale(2);
 }
+.menu 
+{
+    margin: 50px;
+}
+.menu .container-4
+{
+    width: 80%;
+    margin: auto;
+
+}
+.menu .container-4 .content
+{
+    display: flex;
+}
+.menu .container-4 .content .content-1,.menu .container-4 .content .content-2
+{
+    background-color:#222831;
+    width: 48%; 
+    margin: 1%;
+}
+.menu .container-4 .content .content-1 .left img,.menu .container-4 .content .content-2 .left img
+{
+    border: 7px solid orange;
+    width: 100%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.menu .container-4 .content .content-1 .left,.menu .container-4 .content .content-2 .left
+{
+    float: left;
+    width: 40%;
+}
+.menu .container-4 .content .content-1 .right, .menu .container-4 .content .content-2 .right
+{
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.menu .container-4 .content h3
+{
+    padding: 10px 0px;
+    color: white;
+}
+.menu .container-4 .content h2
+{
+    padding: 10px 0px;
+    color: white;
+    font-size: 40px;
+}
+.menu .container-4 .content button
+{
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+}
+.order .container-5 
+{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.order .container-5 ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+.order .container-5 ul li .first
+{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.order .container-5 ul li button
+{
+    font-size: 17px;
+    border:none;
+    background-color: white;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+.order .container-5 ul li button:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.order .container-6
+{
+    width: 80%;
+    margin: auto;
+}
+.order .container-6 .content
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.order .container-6 .content .item
+{
+    width: 29%;
+    margin: 2%;
+    background-color: #222831;
+    text-align: center;
+}
+.order .container-6 .content .item .image
+{
+    background-color: #f1f2f3;
+    border-bottom-left-radius: 50px;
+    height: 160px;
+    overflow: hidden;
+}
+.order .container-6 .content .item:hover img
+{
+    transform: scale(1.5);
+}
+.order .container-6 .content .item img
+{
+    width: 40%;
+    margin: 30px;
+    transition: 1s;
+}
+.order .container-6 .content .item .text h2
+{
+    color: white;
+    padding: 10px 0px;
+}
+.order .container-6 .content .item .text p
+{
+    color: white;
+    padding: 10px 0px;
+}
+.order .container-6 .content .item .text h3
+{
+    float: left;
+    color: white;
+    margin: 20px;
+}
+.order .container-6 .content .item .text button
+{
+    float: right;
+    margin: 20px;
+}
+.order .container-6 .content .buy button
+{
+    padding: 10px 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.advertise .container-7
+{
+    width: 90%;
+    margin: auto;
+  
+}
+.advertise
+{
+    margin: 100px 0px ;
+    width: 100%;
+    background-color: #222831;
+    background-size: cover;
+}
+.advertise .container-7 .content{
+    display: flex;
+    flex-direction: raw;
+}
+.advertise .container-7 .content-1{
+    width: 40%;
+    margin: 3%;
+    color: white;
+    
+}
+.advertise .container-7 .content .paragh{
+    position:relative;
+    top: 250px;
+    width: 100%;
+}
+.advertise .container-7 .content-1 h2{
+    padding: 10px;
+    font-size:30px;
+    text-transform: capitalize;
+
+}
+.advertise .container-7 .content-1  p{
+    padding: 15px;
+    font-size: 21px;
+}
+.advertise .container-7 .content-1 button{
+    padding: 15px 40px ;
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    position:relative;
+    left: 40px;
+    top: 20px;
+
+}
+.book-table{
+    margin: 10px 0px;
+}
+.book-table .container-8{
+    width: 80%;
+    margin: auto ;
+}
+.book-table .container-8  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.book-table .container-8 .content{
+    width: 40%;
+    
+}
+.book-table .container-8 h2{
+    position:relative;
+    left: 50px;
+    font-size: 25px;
+    color: black;
+    text-transform: capitalize;
+    top: -20px;
+
+    
+}
+
+.book-table .container-8 .contact .content input{
+    width: 90%;
+    height: 40px;
+    margin: 10px 0px ;
+}
+.book-table .container-8 .contact .content input::placeholder{
+ padding: 0px 20px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 17px;
+}
+.book-table .container-8 .contact .content .select{
+    width: 90%;
+    height: 40px;
+    font-size: 17px;
+    color: black;
+    padding: 0px 20px;
+}
+.book-table .container-8 .contact .content .date {
+    width: 90%;
+    height: 70px;
+    font-size: 17px;
+    color: black;
+    padding: 0px 20px;
+}
+.rate .container-9 {
+    width: 80%;
+    margin: auto;
+}
+.rate {
+    margin: 20px 0px;
+}
+.rate .container-9 h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+.rate .container-9 .human-rate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rate .container-9 .human{
+    width: 40%;
+    margin: 2%;
+}
+.rate .container-9 .human-rate .human  .human-content{
+    width: 100%; 
+    background-color: #222831;
+    margin: 20px 0px ;
+    border-radius: 5px;
+    height: 170px;
+    color: white;
+    padding: 20px 20px;
+}
+.rate .container-9 .human-rate .human  .human-content p{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.rate .container-9 .human-rate .human  .human-content h4{
+    position:relative ;
+    top: -10px;
+}
+.rate .container-9 .human-rate img{
+    width: 20%;
+    border-radius: 100%;
+    border: 7px solid orange ;
+}
+.rate .container-9 .arrow-content{
+   
+    
+    display: flex;
+   gap:0px 10px;
+   justify-content: center;
+    
+}
+.rate .container-9 .arrow-content .arrow{
+    width: 5%;
+    height: 40px;
+    background-color: rgba(255, 166, 0, 0.718);
+    border-radius: 100%;
+    
+}
+.rate .container-9 .arrow-content .arrow .fa-solid{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    filter: invert(100%);
+    position: relative;
+    top: 10px;
+}
+.footer{
+    width: 100%;
+    background-color: #222831;
+    margin: 25px 0px;
+}
+.footer .container-10{
+    width: 80%;
+    margin:  20px auto;
+}
+.footer .call{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: center;
+}
+.footer .call .call-1{
+    width: 29%;
+    color: white;
+}
+.footer .call h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+    
+}
+.footer .container-10 .call .social span{
+    color: white;
+    padding: 0px 5px;
+}
+.footer .container-10 .call .social p{
+    margin: 20px 0px;
+}
+.footer .container-10 .call .social p:hover{
+    color: orange;
+}
+.footer .container-10 .call .social p:hover .footer .container-10 .call .social span{
+    color: orange;
+}
+.footer .container-10 .call .call-1 .fa-brands{
+    font-size: 25px;
+    padding: 10px 5px;
+   color: white;
+   position:relative;
+   left: 390px;
+}
+.footer .container-10 .call .copy{
+    position:relative;
+   left: 350px;
+   margin: 20px 0px;
+ 
+   text-transform: capitalize;
+}
+.footer .container-10 .call .distribute{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
